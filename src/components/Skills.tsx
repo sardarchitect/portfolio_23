@@ -1,6 +1,6 @@
 "use client";
 import { skills } from "@/data";
-import SkillItem from "@/modules/SkillItem";
+import SkillItem from "@/components/SkillItem";
 import { useEffect, useState } from "react";
 
 export default function Skills() {

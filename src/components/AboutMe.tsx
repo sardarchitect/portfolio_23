@@ -1,7 +1,13 @@
+"use client";
+
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 
 export default function AboutMe() {
+    const handlePageFilter = (filter:string) => setPageFilter(filter)
+    const [pageFilter, setPageFilter] = useState("resume")
+    
     return (
         <div className="shadow-lg p-5 rounded-lg bg-tab_1/25">
             <h1 className="mb-5">About Me</h1>
@@ -17,9 +23,9 @@ export default function AboutMe() {
 
             <hr className="my-3 border-tab_1"/>
             <div className="flex gap-5">
-                <h2 className="border-b-2 h-10 border-accent_1 text-accent_1">Resume</h2>
-                <h2 className="text-primary_h2">Projects</h2>
-                <h2 className="text-primary_h2">Blog</h2>
+                <h2  onClick={() => handlePageFilter('resume')} className="text-primary_h2 hover:text-accent_1 hover:border-b hover:border-b-accent_1 cursor-pointer">Resume</h2>
+                <h2 onClick={() => handlePageFilter('projects')} className="text-primary_h2">Projects</h2>
+                <h2 onClick={() => handlePageFilter('blog')} className="text-primary_h2">Blog</h2>
             </div>
         </div>
     )

@@ -250,4 +250,13 @@ export const educationList = [
       category: "lang",
       title: "Punjabi"
     },
+  ];
+
+  export const projectsList = [
+    {
+      category: "arch",
+      title: "AutoCAD",
+      description: "Lorem Ipsum",
+
+    }
   ]

@@ -1,5 +1,5 @@
 import { educationList } from "@/data"
-import ListItem from "@/modules/ListItem"
+import ListItem from "@/components/ListItem"
 
 export default function Education() {
     return (
