@@ -11,7 +11,7 @@ export default function ListItem({ logo, title, role, location, date, descriptio
     return (
         <div className="">
             <div className="flex gap-5">
-                <img className="rounded-lg w-10 h-10 object-contain bg-primary_h1" src={logo} />
+                <img className="rounded-lg w-10 h-10 object-contain bg-white" src={logo} />
                 <div className="flex flex-col w-full">
                     <div className="flex justify-between">
                         <p className="font-semibold">{role}</p>                        

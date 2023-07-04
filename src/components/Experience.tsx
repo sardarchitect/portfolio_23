@@ -3,7 +3,7 @@ import ListItem from "@/components/ListItem";
 
 export default function Experience() {
     return (
-        <div className="shadow-lg p-5 rounded-lg bg-tab_1/25">
+        <div className="shadow-lg p-5 rounded-lg bg-tab_1">
         <h1 className="mb-5">Experience</h1>
         <div className="flex flex-col gap-2">
             {

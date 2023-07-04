@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="bg-gradient-to-bl from-bg_1 to-bg_2">
+        <div className="bg-gradient-to-bl from-bg_1 to-bg_2 py-5">
           <div className="grid m-auto justify-center md:grid-cols-3 md:gap-5 max-w-screen-lg">
             <div className="space-y-5 md:col-start-1 md:col-end-2">
               <Profile />
@@ -36,6 +36,9 @@ export default function RootLayout({
               {children}
             </div>
           </div>
+          <footer className='flex justify-center'>
+            <p className='mt-5'>Arvinder Singh - 2023</p>
+          </footer>
         </div>
       </body>
     </html>
