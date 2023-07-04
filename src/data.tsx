@@ -1,6 +1,6 @@
 export const educationList = [
   {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/ucsd.jpg",
       title: "University of San Diego",
       role:
         "Certificate in Machine Learning Engineering",
@@ -8,7 +8,7 @@ export const educationList = [
       date: "Oct 2022 - May 2023",
     },  
   {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/umich.jpg",
       title: "University of Michigan",
       role:
         "Bachelor of Science in Architecture",
@@ -16,7 +16,7 @@ export const educationList = [
       date: "Jun 2017 - Apr 2019",
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/grcc.png",
       title: "Grand Rapids Community College",
       role: "Associates of Architecture",
       location: "Grand Rapids",
@@ -25,7 +25,7 @@ export const educationList = [
   ];
   export const experienceList = [
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/eda.png",
       title: "Edge Design Associates, Inc.",
       role: "Architectural Designer",
       location: "Ann Arbor",
@@ -35,7 +35,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/optimize.png",
       title: "OptiMize - Social Innovation Challenge",
       role: "Team Leader",
       location: "Ann Arbor",
@@ -45,7 +45,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/umich.jpg",
       title: "Dimensions v.32 - Annual Architectural Journal",
       role: "Co-Editor",
       location: "Ann Arbor",
@@ -55,7 +55,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/haa.jpg",
       title: "Hamilton Anderson Associates",
       role: "Spring Intern",
       location: "Detroit",
@@ -65,7 +65,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/zgf.jpg",
       title: "ZGF Architects LLP",
       role: "Spring Intern",
       location: "Los Angeles",
@@ -75,7 +75,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/umich.jpg",
       title: "Akoaki- Undergraduate Research Program",
       role: "Research Fellow",
       location: "Detroit",
@@ -85,7 +85,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/grcc.png",
       title: "Orientation Team",
       role: "Student Orientation Ambassador",
       location: "Grand Rapids",
@@ -95,7 +95,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/grcc.png",
       title: "Tutoring Center",
       role: "Peer Tutor (Math & English)",
       location: "Grand Rapids",
@@ -105,7 +105,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/portrait-placeholder.png",
+      logo: "/img/savvy_crafts.png",
       title: "Savvy Crafts Furniture Manufacturers",
       role: "Assistant Manager",
       location: "Chandigarh",
@@ -153,29 +153,101 @@ export const educationList = [
     },
   ];
   
-  export const awardsSkillsList = [
+  export const skills = [
     {
-      title: "Software: Architectural",
-      description: [
-        "AutoCAD | Revit | Rhino | Grasshopper | Unreal Engine 4 | Esri ArcGIS",
-      ],
+      category: "arch",
+      title: "AutoCAD"
     },
     {
-      title: "Software: Visualization",
-      description: [
-        "Photoshop | Illustrator | InDesign | Premiere | AfterEffects",
-      ],
+      category: "arch",
+      title: "Revit"
     },
     {
-      title: "Web Development",
-      description: ["HTML | CSS | JavaScript | ReactJS | NodeJS | MongoDB"],
+      category: "arch",
+      title: "Rhino"
     },
     {
-      title: "Machine Learning",
-      description: ["Python | PyTorch | Numpy | Pandas | Matplotlib"],
+      category: "arch",
+      title: "Grasshopper"
     },
     {
-      title: "Languages",
-      description: ["English | Hindi | Punjabi", "IELTS Score: 8.5"],
+      category: "arch",
+      title: "Unreal Engine 4"
     },
-  ];
+    {
+      category: "arch",
+      title: "Esri ArcGIS"
+    },
+    {
+      category: "graphic",
+      title: "Photoshop"
+    },
+    {
+      category: "graphic",
+      title: "Illustrator"
+    },
+    {
+      category: "graphic",
+      title: "InDesign"
+    },
+    {
+      category: "graphic",
+      title: "Premiere"
+    },
+    {
+      category: "webdev",
+      title: "HTML"
+    },
+    {
+      category: "webdev",
+      title: "CSS"
+    },
+    {
+      category: "webdev",
+      title: "JavaScript"
+    },
+    {
+      category: "webdev",
+      title: "ReactJS"
+    },
+    {
+      category: "webdev",
+      title: "NodeJS"
+    },
+    {
+      category: "webdev",
+      title: "MongoDB"
+    },
+    {
+      category: "ml",
+      title: "Python"
+    },
+    {
+      category: "ml",
+      title: "PyTorch"
+    },
+    {
+      category: "ml",
+      title: "Numpy"
+    },
+    {
+      category: "ml",
+      title: "Pandas"
+    },
+    {
+      category: "ml",
+      title: "Matplotlib"
+    },
+    {
+      category: "lang",
+      title: "English"
+    },
+    {
+      category: "lang",
+      title: "Hindi"
+    },
+    {
+      category: "lang",
+      title: "Punjabi"
+    },
+  ]

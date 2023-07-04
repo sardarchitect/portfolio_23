@@ -4,15 +4,18 @@
 
 @layer base {
     a {
-        @apply text-sm text-indigo-200 hover:text-indigo-300;
+        @apply text-sm text-primary_a hover:text-accent_1;
     }
     p {
-        @apply text-sm text-gray-200;
+        @apply text-sm text-primary_text;
     }
     h1 {
-        @apply text-base font-semibold text-white;
+        @apply text-base font-semibold text-primary_h1;
     }
     h2 {
-        @apply text-base text-gray-50;
+        @apply text-base text-primary_h2;
+    }
+    button{
+        @apply bg-gradient-to-tr from-accent_1 to-accent_2 hover:from-accent_2 hover:to-accent_2  p-2 text-primary_text
     }
 }

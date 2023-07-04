@@ -8,7 +8,7 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <main className="p-10 bg-gradient-to-bl from-purple-950 to-teal-600">
+    <main className="p-10 bg-gradient-to-bl from-bg_1 to-bg_2">
       <div className="grid m-auto justify-center md:grid-cols-3 md:gap-5 max-w-screen-lg">
         <div className="space-y-5 md:col-start-1 md:col-end-2">
           <Profile />

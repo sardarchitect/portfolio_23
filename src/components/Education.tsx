@@ -3,7 +3,7 @@ import ListItem from "@/modules/ListItem"
 
 export default function Education() {
     return (
-        <div className="shadow-lg bg-white p-5 rounded-lg bg-white/10">
+        <div className="shadow-lg p-5 rounded-lg bg-tab_1/25">
             <h1 className="mb-5">Education</h1>
             <div className="flex flex-col">
 

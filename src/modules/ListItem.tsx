@@ -11,27 +11,22 @@ export default function ListItem({ logo, title, role, location, date, descriptio
     return (
         <div className="">
             <div className="flex gap-5">
-                <img className="rounded-lg w-10 h-10" src={logo} />
-                
+                <img className="rounded-lg w-10 h-10 object-contain bg-primary_h1" src={logo} />
                 <div className="flex flex-col w-full">
                     <div className="flex justify-between">
                         <p className="font-semibold">{role}</p>                        
-                        <p className="text-xs text-slate-400">{date}</p>
+                        <p className="text-xs">{date}</p>
                     </div>
                     <div className="flex justify-between">
-                        <p className="text-xs text-slate-400">{title}</p>
-                        <p className="text-xs text-slate-400">{location}</p>
+                        <p className="text-xs">{title}</p>
+                        <p className="text-xs">{location}</p>
                     </div>
                     <div>
                         <p>{description}</p>
                     </div>
-                    <hr className="border-white/25 my-3"/>
+                    <hr className="border-tab_1 my-3"/>
                 </div>
             </div>
-
-
-
-            {/* <p className="text-xs text-slate-400">{description}</p> */}
         </div>
     )
 }

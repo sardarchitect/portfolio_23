@@ -1,6 +1,6 @@
 export default function Information() {
     return (
-        <div className="shadow-lg rounded-lg p-5 bg-white/10 bg-white/10">
+        <div className="shadow-lg rounded-lg p-5 bg-tab_1/25">
             <h1 className="mb-5">Information</h1>
             <ul className="flex flex-col gap-2">
                 <li className="flex justify-between">
