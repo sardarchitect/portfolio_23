@@ -22,7 +22,7 @@ const MenuItems = [
     }
 ]
 
-export default function AboutMe() {  
+export default function Header() {  
     const path = usePathname()
     return (
         <div className="shadow-lg p-5 rounded-lg bg-tab_1">

@@ -1,6 +1,6 @@
 export const educationList = [
   {
-      logo: "/img/ucsd.jpg",
+      logo: "/assets/resume/ucsd.jpg",
       title: "University of San Diego",
       role:
         "Certificate in Machine Learning Engineering",
@@ -8,7 +8,7 @@ export const educationList = [
       date: "Oct 2022 - May 2023",
     },  
   {
-      logo: "/img/umich.jpg",
+      logo: "/assets/resume/umich.jpg",
       title: "University of Michigan",
       role:
         "Bachelor of Science in Architecture",
@@ -16,7 +16,7 @@ export const educationList = [
       date: "Jun 2017 - Apr 2019",
     },
     {
-      logo: "/img/grcc.png",
+      logo: "/assets/resume/grcc.png",
       title: "Grand Rapids Community College",
       role: "Associates of Architecture",
       location: "Grand Rapids",
@@ -25,7 +25,7 @@ export const educationList = [
   ];
   export const experienceList = [
     {
-      logo: "/img/eda.png",
+      logo: "/assets/resume/eda.png",
       title: "Edge Design Associates, Inc.",
       role: "Architectural Designer",
       location: "Ann Arbor",
@@ -35,7 +35,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/optimize.png",
+      logo: "/assets/resume/optimize.png",
       title: "OptiMize - Social Innovation Challenge",
       role: "Team Leader",
       location: "Ann Arbor",
@@ -45,7 +45,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/umich.jpg",
+      logo: "/assets/resume/umich.jpg",
       title: "Dimensions v.32 - Annual Architectural Journal",
       role: "Co-Editor",
       location: "Ann Arbor",
@@ -55,7 +55,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/haa.jpg",
+      logo: "/assets/resume/haa.jpg",
       title: "Hamilton Anderson Associates",
       role: "Spring Intern",
       location: "Detroit",
@@ -65,7 +65,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/zgf.jpg",
+      logo: "/assets/resume/zgf.jpg",
       title: "ZGF Architects LLP",
       role: "Spring Intern",
       location: "Los Angeles",
@@ -75,7 +75,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/umich.jpg",
+      logo: "/assets/resume/umich.jpg",
       title: "Akoaki- Undergraduate Research Program",
       role: "Research Fellow",
       location: "Detroit",
@@ -85,7 +85,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/grcc.png",
+      logo: "/assets/resume/grcc.png",
       title: "Orientation Team",
       role: "Student Orientation Ambassador",
       location: "Grand Rapids",
@@ -95,7 +95,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/grcc.png",
+      logo: "/assets/resume/grcc.png",
       title: "Tutoring Center",
       role: "Peer Tutor (Math & English)",
       location: "Grand Rapids",
@@ -105,7 +105,7 @@ export const educationList = [
       ],
     },
     {
-      logo: "/img/savvy_crafts.png",
+      logo: "/assets/resume/savvy_crafts.png",
       title: "Savvy Crafts Furniture Manufacturers",
       role: "Assistant Manager",
       location: "Chandigarh",

@@ -1,5 +1,6 @@
 import ListItem from "@/components/ListItem";
 import { projectsList } from "@/data";
+import Link from "next/link";
 
 export default function ProjectPage() {
   return (
@@ -9,10 +10,9 @@ export default function ProjectPage() {
         {
           projectsList.map((item) => {
             return(
-              <ListItem
-              title={item.title}
-              description={item.description}
-          />
+              <div>
+                <Link href={`/projects/${item.projectId}`}>{item.title}</Link>
+              </div>
             )
           })
         }
