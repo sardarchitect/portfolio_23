@@ -3,19 +3,15 @@
 @tailwind utilities;
 
 @layer base {
-    a {
-        @apply text-sm text-primary_text hover:text-primary_a;
-    }
     p {
         @apply text-sm text-primary_text;
     }
+
     h1 {
         @apply text-base font-semibold text-primary_h1;
     }
-    h2 {
-        @apply text-base text-primary_h2;
-    }
-    button{
-        @apply border-2 rounded-md hover:bg-primary_h1  p-2 text-primary_text
+
+    button {
+        @apply rounded-md bg-white/20 hover:bg-white/25 p-2 text-primary_text
     }
 }

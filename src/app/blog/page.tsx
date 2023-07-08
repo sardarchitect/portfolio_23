@@ -2,7 +2,8 @@ import PostPreview from "@/components/PostPreview";
 import getPostMetadata from "@/components/getPostMetadata";
 
 export default function BlogPage() {
-  const postMetadata = getPostMetadata()
+  const folder = "src/content/blog_posts"
+  const postMetadata = getPostMetadata(folder, "blog")
   const postPreviews = postMetadata.map((post) => (
     <PostPreview
     key={post.slug}{...post}
@@ -15,4 +16,3 @@ export default function BlogPage() {
         </div>
   )
 }
-

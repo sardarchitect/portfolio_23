@@ -25,7 +25,7 @@ const MenuItems = [
 export default function Header() {  
     const path = usePathname()
     return (
-        <div className="shadow-lg p-5 rounded-lg bg-tab_1">
+        <div className="shadow-lg p-5 rounded-lg bg-white/5">
             <h1 className="mb-5">About Me</h1>
             <p className="mb-5">Socially-minded architect adopting an interdisciplinary approach to today’s
                 problems through the use of artificial intelligence. My career focuses on using

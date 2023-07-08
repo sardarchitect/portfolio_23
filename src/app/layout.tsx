@@ -1,21 +1,20 @@
+//Imports
 import '@/styles/globals.css'
-
 import type { Metadata } from "next"
 
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-import Profile from '@/components/Profile';
-import Information from '@/components/Information';
-import Skills from '@/components/Skills';
 import Header from '@/components/Header';
+import Sidebar from '@/components/Sidebar';
+import Footer from '@/components/Footer';
 
-config.autoAddCss = false;
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
+//Metadata
 export const metadata: Metadata = {
   title: 'Arvinder Singh',
   description: 'Machine Learning Engineering Portfolio',
 }
 
+//RootLayout
 export default function RootLayout({
   children, // will be a page or nested layout
 }: {
@@ -32,20 +31,8 @@ export default function RootLayout({
             {children}
           </div>
         </div>
-        <footer className='flex justify-center'>
-          <p className='mt-5'>Arvinder Singh - 2023</p>
-        </footer>
+        <Footer />
       </body>
     </html>
-  )
-}
-
-function Sidebar() {
-  return (
-    <div className="space-y-5 md:col-start-1 md:col-end-2">
-      <Profile />
-      <Information />
-      <Skills />
-    </div>
   )
 }

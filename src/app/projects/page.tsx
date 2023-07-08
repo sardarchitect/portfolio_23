@@ -1,22 +1,18 @@
-import ListItem from "@/components/ListItem";
-import { projectsList } from "@/data";
-import Link from "next/link";
+import PostPreview from "@/components/PostPreview";
+import getPostMetadata from "@/components/getPostMetadata";
 
 export default function ProjectPage() {
+  const folder:string = "src/content/projects"
+  const postMetadata = getPostMetadata(folder, "projects")
+  const postPreviews = postMetadata.map((post) => (
+    <PostPreview
+    key={post.slug}{...post}
+    />
+  ));
+
   return (
-    <div className="shadow-lg p-5 rounded-lg bg-tab_1">
-      <h1 className="mb-5">Projects</h1>
-      <div className="flex flex-col">
-        {
-          projectsList.map((item) => {
-            return(
-              <div>
-                <Link href={`/projects/${item.projectId}`}>{item.title}</Link>
-              </div>
-            )
-          })
-        }
-      </div>
-    </div>
+        <div className="space-y-5">
+          {postPreviews}
+        </div>
   )
 }

@@ -1,9 +1,9 @@
-import { experienceList } from "@/data";
+import { experienceList } from "@/content/resume";
 import ListItem from "@/components/ListItem";
 
 export default function Experience() {
     return (
-        <div className="shadow-lg p-5 rounded-lg bg-tab_1">
+        <div className="shadow-lg p-5 rounded-lg bg-white/5">
         <h1 className="mb-5">Experience</h1>
         <div className="flex flex-col gap-2">
             {

@@ -21,14 +21,16 @@ export default function PostPage(props: any) {
 }
 
 export const generateStaticParams = async () => {
-  const posts = getPostMetadata()
+  const folder = "src/content/blog_posts/"
+  const posts = getPostMetadata(folder)
   return posts.map((post) => ({
+    parent: "projects",
     slug: post.slug
   }))  
 }
 
 const getPostContent = (slug: string) => {
-  const folder = "posts/"
+  const folder = "src/content/blog_posts/"
   const file = `${folder}${slug}.md`
   const content = fs.readFileSync(file, 'utf-8')
   const matterResult = matter(content)

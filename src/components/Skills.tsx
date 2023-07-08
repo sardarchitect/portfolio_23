@@ -1,5 +1,5 @@
 "use client";
-import { skills } from "@/data";
+import { skills } from "@/content/resume";
 import SkillItem from "@/components/SkillItem";
 import { useEffect, useState } from "react";
 
@@ -47,13 +47,13 @@ export default function Skills() {
     }, [filter]);
 
     return (
-        <div className="shadow-lg p-5 rounded-lg bg-tab_1">
+        <div className="shadow-lg p-5 rounded-lg bg-white/5">
             <h1 className="mb-5">Skills</h1>
             <div className="mb-5 flex gap-2 flex-wrap">
                 {
                     buttonList.map((item, index) => {
                         return (
-                            <button className={`${filter === item.category ? "bg-primary_h1 text-white" : ""}`} onClick={() => { filter === item.category ? setFilter("none") : setFilter(item.category) }}>
+                            <button className={`${filter === item.category ? "bg-white/50 hover:bg-white/75" : ""}`} onClick={() => { filter === item.category ? setFilter("none") : setFilter(item.category) }}>
                                 {item.title}
                             </button>
                         )
