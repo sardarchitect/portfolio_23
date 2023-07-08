@@ -5,6 +5,10 @@ date: 2019
 thumbnail: "/thumbnail/thumbnail-a-framework-for-frameworks.jpg"
 ---
 
+# A Framework for Frameworks
+
+![image](/assets/resume/card-top.jpg)
+
 studio: "Gabriel Cuellar"
 role: null
 site: "Native American Reservations, New Mexico"
