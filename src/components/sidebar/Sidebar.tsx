@@ -1,6 +1,6 @@
+import Skills from "../resume/Skills";
 import Information from "./Information";
 import Profile from "./Profile";
-import Skills from "./Skills";
 
 export default function Sidebar() {
     return (

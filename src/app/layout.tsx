@@ -3,7 +3,7 @@ import '@/styles/globals.css'
 import type { Metadata } from "next"
 
 import Header from '@/components/Header';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/sidebar/Sidebar';
 import Footer from '@/components/Footer';
 
 import "@fortawesome/fontawesome-svg-core/styles.css";

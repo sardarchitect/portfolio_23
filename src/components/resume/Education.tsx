@@ -1,5 +1,5 @@
 import { educationList } from "@/content/resume"
-import ListItem from "@/components/ListItem"
+import ListItem from "./ListItem"
 
 export default function Education() {
     return (

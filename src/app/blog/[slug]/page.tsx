@@ -1,38 +1,11 @@
-import fs from 'fs'
-import Markdown from 'markdown-to-jsx';
-import matter from "gray-matter"
-import getPostMetadata from '@/components/getPostMetadata';
+import PostPageTemplate from '@/components/post/PostPageTemplate';
 
 export default function PostPage(props: any) {
-  const slug = props.params.slug;
-  const post = getPostContent(slug)
+  const folder = "src/content/blog_posts/"
+  
   return(
-    <div className="shadow-lg p-5 rounded-lg bg-tab_1">
-      <h1 className="mb-5">{slug}</h1>
-      <h1>{post.data.title}</h1>
-      <article className='prose lg:prose-xl'>
-      <Markdown>
-        {post.content}
-      </Markdown>
-      </article>
-
-    </div>
+    <PostPageTemplate   
+    folder={folder}
+    {...props}/>
   )
-}
-
-export const generateStaticParams = async () => {
-  const folder = "src/content/blog_posts/"
-  const posts = getPostMetadata(folder)
-  return posts.map((post) => ({
-    parent: "projects",
-    slug: post.slug
-  }))  
-}
-
-const getPostContent = (slug: string) => {
-  const folder = "src/content/blog_posts/"
-  const file = `${folder}${slug}.md`
-  const content = fs.readFileSync(file, 'utf-8')
-  const matterResult = matter(content)
-  return matterResult
 }

@@ -1,5 +1,5 @@
-import Education from "@/components/Education";
-import Experience from "@/components/Experience";
+import Education from "@/components/resume/Education";
+import Experience from "@/components/resume/Experience";
 
 export default function Home() {
     return (

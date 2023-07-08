@@ -1,6 +1,6 @@
 "use client";
 import { skills } from "@/content/resume";
-import SkillItem from "@/components/SkillItem";
+import SkillItem from "./SkillItem";
 import { useEffect, useState } from "react";
 
 const buttonList = [
