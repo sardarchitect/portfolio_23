@@ -3,6 +3,9 @@ category: "architecture"
 title: "The American Bazaar"
 date: 2018
 thumbnail: "/thumbnail/thumbnail-the-american-bazaar.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 studio: "Peter Halquist"
 role: null

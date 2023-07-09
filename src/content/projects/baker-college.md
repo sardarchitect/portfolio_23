@@ -1,14 +1,11 @@
 ---
 category: "architecture"
-projectId: "baker-college"
 title: "Baker College"
-year: 2020
-studio: "Edge Design Associates, Inc."
-role: "Architectural Designer I"
-site: "Royal Oak, Michigan"
-team: "Daniel Mooney | Heather Buffone | Stephen Bohlen | Arvinder Singh"
-award: null
+date: 2020
 thumbnail: "/thumbnail/thumbnail-baker-college.jpg"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 
 Baker College is a private college in Michigan, founded in 1911. It has since grown to span multiple cities within Michigan, and this project is the College's most recent urban campus.,

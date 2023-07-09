@@ -2,13 +2,11 @@
 category: "art-design"
 projectId: "dimensions"
 title: "Dimensions Vol. 32"
-year: 2019
-studio: null
-role: "Co-Editor"
-site: null
-team: "Christian Unverzagt | Hannah Cane | Karun Chughasrani | Grace Hsu | JordanLaurila | Austin Kronig | Nour Majzoub | Rinika Prince | Jenny Scarborough |Arvinder Singh"
-award: null
+date: 2019
 thumbnail: "/thumbnail/thumbnail-dimensions.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 Dimensions is the student produced journal of architecture at the University of Michigan. The journal seeks to contribute to the critical discourse of architectural education by documenting the most compelling work produced by its students, faculty, fellows, and visiting lecturers.,
 Volume 32 uniquely focused on elucidating the traces of labor required for much of the architectural work to exist. The volume sought out transparency behind every project: total project costs in US dollars, number of hours labored by the authors, and the tools used to create these works.,

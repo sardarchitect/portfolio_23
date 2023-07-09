@@ -2,13 +2,11 @@
 category: "architecture"
 projectId: "the-dot"
 title: "The dot at Ferndale"
-year: 2019
-studio: "Edge Design Associates, Inc."
-role: "Architectural Designer I"
-site: "Ferndale, Michigan"
-team: "Daniel Mooney | Heather Buffone | Arvinder Singh"
-award: null
+date: 2019
 thumbnail: "/thumbnail/thumbnail-the-dot.jpg"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 
 The dot (The Development on Troy) is a mixed-use parking, retail, and office development in Downtown Ferndale.,

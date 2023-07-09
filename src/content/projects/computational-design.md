@@ -1,14 +1,11 @@
 ---
 category: "technology"
-projectId: "computational-design"
 title: "Computational Design"
-year: null
-studio: null
-role: null
-site: null
-team: null
-award: null
+date: "Various"
 thumbnail: "/thumbnail/thumbnail-digital-objects.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 This is a compilation of objects designed, vizualized, and fabricated through the use of digital technologies. The projects were created using scripting tools like Grasshopper, and Rhino. The fabrication process included 3D printing, ZUND cutting, laser cutting, and KUKA robots.,
 src: null,

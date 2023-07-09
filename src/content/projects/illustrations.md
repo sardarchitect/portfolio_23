@@ -2,13 +2,11 @@
 category: "art-design"
 projectId: "illustrations"
 title: "Illustrations"
-year: "Various Dates"
-studio: null
-role: null
-site: null
-team: null
-award: null
+date: "Various Dates"
 thumbnail: "/thumbnail/thumbnail-artwork.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 
 These are various artworks done throughout the years. They include art through the use of graphite, charcoal, iPads, and robots.

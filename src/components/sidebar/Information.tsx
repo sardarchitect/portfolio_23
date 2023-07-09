@@ -1,5 +1,6 @@
 import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Link from "next/link"
 
 const informationData = [
     {"key": "Location",
@@ -26,9 +27,9 @@ export default function Information() {
                     })
                 }
             <li className="flex justify-center gap-3">
-                <FontAwesomeIcon icon={faGithub} />
-                <FontAwesomeIcon icon={faLinkedin} />
-                <FontAwesomeIcon icon={faInstagram} />
+                <Link href=""><FontAwesomeIcon icon={faGithub} color="white"/></Link>
+                <Link href=""><FontAwesomeIcon icon={faLinkedin} color="white"/></Link>
+                <Link href=""><FontAwesomeIcon icon={faInstagram} color="white"/></Link>
             </li>
             </ul>
         </div>

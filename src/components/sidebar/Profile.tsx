@@ -11,7 +11,8 @@ export default function Profile() {
                 <Link href="/">
                 <h1>Arvinder Singh</h1>
                 </Link>
-                <p>Machine Learning Engineer</p>
+                <p>University of Michigan'19</p>
+                <p>AI/ML Engineer</p>
                 <button
                     className="mt-5">
                     Download CV

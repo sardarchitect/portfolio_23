@@ -2,13 +2,11 @@
 category: "technology"
 projectId: "computer-vision"
 title: "Computer Vision"
-year: 2021
-studio: null
-role: null
-site: null
-team: null
-award: null
+date: 2021
 thumbnail: "/thumbnail/thumbnail-cv.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 
 My work on understanding the intricacies of AI began after realizing so much of my work as an architectural designer can be automatized.,

@@ -1,28 +1,27 @@
-import Link from "next/link"
 import { PostMetadata } from "./PostMetadata"
+import Link from "next/link"
 
 export default function PostPreview(props: PostMetadata) {
   return (
-    <div className="">
-      <div className="flex gap-5">
-          <img className="rounded-lg w-10 h-10 object-contain bg-white" src={props.thumbnail} />
+    <div className="flex gap-5">
+      <img className="rounded-lg w-10 h-10 object-contain bg-white" src={props.thumbnail} />
+      <div className="flex flex-col w-full">
+        <div className="flex justify-between">
           <Link href={`/${props.parent}/${props.slug}`}>
-          <div className="flex flex-col w-full">
-            <div className="flex justify-between">
-              <p className="font-semibold">{props.title}</p>
-              <p className="text-xs">{props.date}</p>
-            </div>
-            <div className="flex justify-between">
-              <p className="text-xs">{props.parent}</p>
-              <p className="text-xs">{props.slug}</p>
-            </div>
-            <div>
-              <p>{props.category}</p>
-            </div>
-            <hr className="border-tab_1 my-3" />
+            <p className="font-semibold">{props.title}</p>
+          </Link>
+          <p className="text-xs">{props.date}</p>
+        </div>
+        <div className="flex">
+          {
+            props.tags ? props.tags.map((tag:string) => (<p className="bg-white/20 text-xs rounded-lg p-1 mr-2">{tag}</p>)) : ""
+          }
+        </div>
+        <div className="flex">
+          <p>{props.excerpt}</p>
+        </div>
 
-          </div>
-        </Link>
+        <hr className="border-tab_1 my-3" />
       </div>
     </div>
   )

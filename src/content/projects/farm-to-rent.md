@@ -2,13 +2,11 @@
 category: "architecture"
 projectId: "farm-to-rent"
 title: "Farm-To-Rent"
-year: 2019
-studio: "DEI Challenge - Detroit"
-role: null
-site: "Detroit, Michigan"
-team: "Brendan Varielk | Arvinder Singh"
-award: null
+date: 2019
 thumbnail: "/thumbnail/thumbnail-farm-to-rent.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 
 Farm-to-Rent is designed, at its core, with community in mind.,

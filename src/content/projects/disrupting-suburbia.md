@@ -2,13 +2,11 @@
 category: "architecture"
 projectId: "disrupting-suburbia"
 title: "Disrupting Suburbia"
-year: 2018
-studio: "Brittany Utting"
-role: null
-site: "Ann Arbor, Michigan"
-team: null
-award: null
+date: 2018
 thumbnail: "/thumbnail/thumbnail-disrupting-suburbia.png"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam."
+tags: 
+    - "architecture"
 ---
 
 American suburbanization has created an uneventful dystopia that lacks pedestrian anchorage, walk-ability, and social infrastructure. This car-dependent, developer-oriented sub-urbanization also creates spaces that economically disincentivize lower-income housing, gives way to sprawl, and promotes longer commutes.,

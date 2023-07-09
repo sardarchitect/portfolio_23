@@ -1,4 +1,4 @@
-import { PostMetadata } from "@/components/PostMetadata";
+import { PostMetadata } from "@/components/post/PostMetadata";
 import fs from "fs";
 import matter from "gray-matter";
 
@@ -11,9 +11,12 @@ const getPostMetadata = (folder: string, parent: string): PostMetadata[] => {
         return {
             parent: parent,
             category: matterResult.data.category,
+            thumbnail: matterResult.data.thumbnail,
             title: matterResult.data.title,
             date: matterResult.data.date,
-            slug: fileName.replace(".md", "")
+            slug: fileName.replace(".md", ""),
+            excerpt: matterResult.data.excerpt,
+            tags: matterResult.data.tags
         }
     })
     return posts;

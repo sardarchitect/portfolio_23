@@ -3,6 +3,10 @@ category: "architecture"
 title: "A Framework For Frameworks"
 date: 2019
 thumbnail: "/thumbnail/thumbnail-a-framework-for-frameworks.jpg"
+excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam.  "
+tags: 
+    - "architecture"
+    - "machine learning"
 ---
 
 # A Framework for Frameworks
