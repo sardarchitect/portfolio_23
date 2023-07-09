@@ -53,7 +53,7 @@ export default function Skills() {
                 {
                     buttonList.map((item, index) => {
                         return (
-                            <button className={`${filter === item.category ? "bg-white/50 hover:bg-white/75" : ""}`} onClick={() => { filter === item.category ? setFilter("none") : setFilter(item.category) }}>
+                            <button key={item.title} className={`${filter === item.category ? "bg-white/50 hover:bg-white/75" : ""}`} onClick={() => { filter === item.category ? setFilter("none") : setFilter(item.category) }}>
                                 {item.title}
                             </button>
                         )
@@ -65,7 +65,7 @@ export default function Skills() {
                 {
                     data.map((item) => {
                         return (
-                            <SkillItem category={item.category} title={item.title} selectedCategory={filter} />
+                            <SkillItem key={item.title} category={item.category} title={item.title} selectedCategory={filter} />
                         )
                     })
                 }

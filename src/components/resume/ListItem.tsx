@@ -24,7 +24,7 @@ export default function ListItem({ logo, title, role, location, date, descriptio
                     <div>
                         <p>{description}</p>
                     </div>
-                    <hr className="border-tab_1 my-3"/>
+                    <hr/>
                 </div>
             </div>
         </div>
