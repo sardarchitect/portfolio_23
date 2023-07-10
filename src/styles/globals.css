@@ -12,7 +12,7 @@
     }
 
     button {
-        @apply rounded-md bg-white/20 hover:bg-white/25 p-2 text-primary_text
+        @apply rounded-md bg-white/20 hover:bg-white/25 p-2 text-primary_text text-sm
     }
     hr {
         @apply border-white/10 my-5

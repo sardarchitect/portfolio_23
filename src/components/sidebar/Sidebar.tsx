@@ -1,6 +1,7 @@
 import Skills from "../resume/Skills";
 import Information from "./Information";
 import Profile from "./Profile";
+import Contributions from "./Contributions";
 
 export default function Sidebar() {
     return (
@@ -8,6 +9,7 @@ export default function Sidebar() {
         <Profile />
         <Information />
         <Skills />
+        <Contributions />
       </div>
     )
   }
