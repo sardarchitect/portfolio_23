@@ -1,36 +1,26 @@
-import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
-
-const informationData = [
-    {"key": "Location",
-    "value": "Boston, MA"},
-    {"key": "Phone",
-    "value": "305-457-9897"},
-    {"key": "Email",
-    "value": "singh@arvinder.me"},
-]
 
 export default function Information() {
     return (
         <div className="shadow-lg rounded-lg p-5 bg-white/5">
             <h1 className="mb-5">Information</h1>
             <ul className="flex flex-col gap-2">
-                {
-                    informationData.map((item) => {
-                        return(
-                            <li key={item.key} className="flex justify-between">
-                                <p>{item.key}</p>
-                                <p>{item.value}</p>
-                            </li>
-                        )
-                    })
-                }
-            <li className="flex justify-center gap-3">
-                <Link href=""><FontAwesomeIcon icon={faGithub} color="white"/></Link>
-                <Link href=""><FontAwesomeIcon icon={faLinkedin} color="white"/></Link>
-                <Link href=""><FontAwesomeIcon icon={faInstagram} color="white"/></Link>
-            </li>
+                <li className="flex justify-between">
+                    <p>Location</p>
+                    <p>Boston, MA</p>
+                </li>
+                <li className="flex justify-between">
+                    <p>Email</p>
+                    <Link href="mailto:singh@arvinder.me"><p>singh@arvinder.me</p></Link>
+                </li>
+                <li className="flex justify-between">
+                    <p>Github</p>
+                    <Link href="https://github.com/sardarchitect"><p>github.com/sardarchitect</p></Link>
+                </li>
+                <li className="flex justify-between">
+                    <p>LinkedIn</p>
+                    <Link href="https://www.linkedin.com/in/sardarchitect/"><p>linkedin.com/in/sardarchitect</p></Link>
+                </li>
             </ul>
         </div>
     )

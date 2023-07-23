@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className='mt-5 flex justify-center gap-6'>
+    <footer className='mt-12 flex justify-center gap-6'>
       <Link href="mailto:singh@arvinder.me" className="flex gap-3 align-middle align">
         <FontAwesomeIcon icon={faEnvelope} color="white" />
         <p>Email</p>
