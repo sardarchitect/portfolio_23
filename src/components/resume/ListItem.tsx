@@ -4,7 +4,7 @@ interface Props {
     role: string;
     location: string;
     date: string;
-    description?: string;
+    description?: Array;
 }
 
 export default function ListItem({ logo, title, role, location, date, description }: Props) {
@@ -22,7 +22,12 @@ export default function ListItem({ logo, title, role, location, date, descriptio
                         <p className="text-xs">{location}</p>
                     </div>
                     <div>
-                        <p>{description}</p>
+                        <ul className="list-disc text-white">
+                        {
+                            description ? description.map((item:string) => (<li className="my-2"><p>{item}</p></li>)) : ""
+                        }
+                        </ul>
+                        
                     </div>
                     <hr/>
                 </div>

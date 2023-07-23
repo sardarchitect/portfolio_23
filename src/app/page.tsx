@@ -1,3 +1,4 @@
+import Affliations from "@/components/resume/Affiliations";
 import Education from "@/components/resume/Education";
 import Experience from "@/components/resume/Experience";
 
@@ -6,6 +7,7 @@ export default function Home() {
         <div className="space-y-5">
             <Education />
             <Experience />
+            <Affliations />
         </div>
     )
 }
