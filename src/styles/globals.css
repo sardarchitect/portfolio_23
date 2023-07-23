@@ -17,4 +17,7 @@
     hr {
         @apply border-white/10 my-5
     }
+    a {
+        @apply text-accent_1
+    }
 }

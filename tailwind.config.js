@@ -11,7 +11,7 @@ module.exports = {
       'bg_1': '#211339',
       'bg_2': '#000000',
 
-      'accent_1': '#184E77',
+      'accent_1': '#ffff1a',
 
       'primary_text': '#FFFBE7',
       'primary_h1': '#FFFFFF',
