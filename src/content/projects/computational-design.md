@@ -2,7 +2,7 @@
 category: "architecture"
 title: "Generative Design"
 date: "2019"
-thumbnail: "/thumbnail/thumbnail-digital-objects.png"
+thumbnail: "/assets/projects/demo.png"
 excerpt: "This is a compilation of objects designed, vizualized, and fabricated through the use of digital technologies. The projects were created using scripting tools like Grasshopper, and Rhino. The fabrication process included 3D printing, ZUND cutting, laser cutting, and KUKA robots."
 tags: 
     - "architecture"

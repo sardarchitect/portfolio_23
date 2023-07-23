@@ -2,7 +2,7 @@
 category: "machine-learning"
 title: "Understanding Signal Processing with Neural Nets"
 date: 2023-07
-thumbnail: "/thumbnail/thumbnail-a-framework-for-frameworks.jpg"
+thumbnail: "/assets/projects/demo.png"
 excerpt: "Aut omnis voluptatem sit sequi. Voluptatem temporibus repellat voluptatem voluptatibus enim voluptas necessitatibus. Aut quasi sunt dolor. Commodi dolores saepe asperiores beatae voluptate corporis est ea voluptatem. Enim quo sed et sint aspernatur distinctio qui quam.  "
 tags: 
     - "machine learning"

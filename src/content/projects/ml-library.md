@@ -1,11 +1,13 @@
 ---
 category: "machine-learning"
-title: "Machine Learning Implementation"
+title: "Numpy-Only ML Algorithms"
 date: 2023
-thumbnail: "/thumbnail/thumbnail-a-framework-for-frameworks.jpg"
-excerpt: "Implementing a machine learning library from scratch."
+thumbnail: "/assets/projects/demo.png"
+excerpt: "Implementing machine learning algorithms from scratch using Numpy only."
 tags: 
-    - "machine learning"
+    - "numpy"
+    - "ml"
+    - "educational"
 ---
 # Machine Learning Implementation
 [Source Code](https://github.com/sardarchitect/ucsd_capstone)
