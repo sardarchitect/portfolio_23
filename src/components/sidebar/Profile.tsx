@@ -10,7 +10,7 @@ export default function Profile() {
                 <div className="w-full h-32 max-h-32 object-cover rounded-t-lg">
                     <CustomParticles />
                 </div>
-                <Image className="h-24 w-24 rounded-full absolute -bottom-12 left-5 " src="/assets/resume/profile-pic.jpg" alt="Profile Picture" />
+                <Image width={500} height={500} className="h-24 w-24 rounded-full absolute -bottom-12 left-5 " src="/assets/resume/profile-pic.jpg" alt="Profile Picture" />
             </div>
             <div className="p-5 flex flex-col">
                 <Link href="/">

@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={fontType.className}>
+    <html lang="en" className="">
       <head />
       <body className="bg-gradient-to-bl from-bg_1 to-bg_2 p-5">
         <div className="grid m-auto justify-center md:grid-cols-3 md:gap-5 max-w-screen-lg">
