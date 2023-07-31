@@ -1,12 +1,10 @@
 {
   "name": "portfolio_23",
   "version": "0.1.0",
-  "hompage": "https://www.arvinder.me",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
