@@ -7,7 +7,7 @@ import Sidebar from '@/components/sidebar/Sidebar';
 import Footer from '@/components/Footer';
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { Inconsolata } from 'next/font/google'
+// import { Inconsolata } from 'next/font/google'
 
 //Metadata
 export const metadata: Metadata = {
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
   description: 'Machine Learning Engineering Portfolio',
 }
 
-const fontType = Inconsolata({
-  subsets: ['latin'],
-  display: 'swap'
-})
+// const fontType = Inconsolata({
+//   subsets: ['latin'],
+//   display: 'swap'
+// })
 
 //RootLayout
 export default function RootLayout({
