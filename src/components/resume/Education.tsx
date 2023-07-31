@@ -10,6 +10,7 @@ export default function Education() {
                 {
                     educationList.map((item) => (
                         <ListItem
+                            key={item.title}
                             logo={item.logo}
                             title={item.title}
                             role={item.role}

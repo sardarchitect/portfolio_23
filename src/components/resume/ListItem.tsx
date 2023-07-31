@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface Props {
     logo: string;
     title: string;
@@ -11,7 +13,7 @@ export default function ListItem({ logo, title, role, location, date, descriptio
     return (
         <div className="">
             <div className="flex gap-5">
-                <img className="rounded-lg w-10 h-10 object-contain bg-white" src={logo} />
+                <Image className="rounded-lg w-10 h-10 object-contain bg-white" src={logo} />
                 <div className="flex flex-col w-full">
                     <div className="flex justify-between">
                         <p className="font-semibold">{role}</p>                        
@@ -24,7 +26,7 @@ export default function ListItem({ logo, title, role, location, date, descriptio
                     <div>
                         <ul className="list-disc text-white">
                         {
-                            description ? description.map((item:string) => (<li className="my-2"><p>{item}</p></li>)) : ""
+                            description ? description.map((item:string) => (<li key={item} className="my-2"><p>{item}</p></li>)) : ""
                         }
                         </ul>
                         

@@ -14,7 +14,7 @@ export default function PostPreview(props: PostMetadata) {
           </div>
           <div className="flex">
             {
-              props.tags ? props.tags.map((tag: string) => (<p className="bg-white/20 text-xs rounded-lg p-1 mr-2">{tag}</p>)) : ""
+              props.tags ? props.tags.map((tag: string) => (<p key={tag} className="bg-white/20 text-xs rounded-lg p-1 mr-2">{tag}</p>)) : ""
             }
           </div>
           <div className="flex">

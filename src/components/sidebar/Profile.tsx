@@ -16,7 +16,7 @@ export default function Profile() {
                 <Link href="/">
                     <h1>Arvinder Singh</h1>
                 </Link>
-                <p>University of Michigan'19</p>
+                <p>University of Michigan&apos;19</p>
                 <p>AI/ML Engineer</p>
                 <a className="flex justify-center align-middle rounded-md bg-white/20 hover:bg-white/25 mt-4 p-2 text-primary_text text-sm" href="assets/resume.pdf"> Download CV </a>
             </div>
