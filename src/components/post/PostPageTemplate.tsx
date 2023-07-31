@@ -1,7 +1,7 @@
 import Markdown from 'markdown-to-jsx';
 import getPostContent from './getPostContent';
 
-export default function PostPageTemplate(props){
+export default function PostPageTemplate(props:any){
     const slug = props.params.slug;
     const post = getPostContent(props.folder, slug)
     return (
