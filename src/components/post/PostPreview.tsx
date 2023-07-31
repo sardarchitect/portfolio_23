@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { PostMetadata } from "./PostMetadata"
 import Link from "next/link"
 
@@ -5,7 +6,7 @@ export default function PostPreview(props: PostMetadata) {
   return (
     <Link href={`/${props.parent}/${props.slug}`}>
       <div className="flex gap-5">
-        <img className="rounded-lg w-10 h-10 object-contain bg-white" src={props.thumbnail} />
+        <Image alt="thumbnail" className="rounded-lg w-10 h-10 object-contain bg-white" src={props.thumbnail} />
         <div className="flex flex-col w-full">
           <div className="flex justify-between">
             <p className="font-semibold">{props.title}</p>
