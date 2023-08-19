@@ -37,7 +37,7 @@ export default function Skills() {
     const [filter, setFilter] = useState("none");
 
     useEffect(() => {
-        let sorted;
+        let sorted:any = [];
         if (filter !== "none") {
             sorted = [...skills].sort((a) => (a.category === filter ? -1 : 1));
         } else {
@@ -51,7 +51,7 @@ export default function Skills() {
             <h1 className="mb-5">Skills</h1>
             <div className="mb-5 flex gap-2 flex-wrap">
                 {
-                    buttonList.map((item, index) => {
+                    buttonList.map((item, _) => {
                         return (
                             <button key={item.title} className={ `${filter === item.category ? "bg-white/50 hover:bg-white/75" : ""}`} onClick={() => { filter === item.category ? setFilter("none") : setFilter(item.category) }}>
                                 {item.title}
@@ -63,7 +63,7 @@ export default function Skills() {
 
             <div className="flex flex-wrap gap-2">
                 {
-                    data.map((item) => {
+                    data.map((item:any) => {
                         return (
                             <SkillItem key={item.title} category={item.category} title={item.title} selectedCategory={filter} />
                         )
