@@ -10,7 +10,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 //Metadata
 export const metadata: Metadata = {
-  title: 'Arvinder Singh',
+  title: 'Arvinder Singh Portfolio',
   description: 'Machine Learning Engineering Portfolio',
 }
 
@@ -21,8 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="">
-      <head />
+    <html lang="en">
       <body className="bg-gradient-to-bl from-bg_1 to-bg_2 p-5">
         <div className="grid m-auto justify-center md:grid-cols-3 md:gap-5 max-w-screen-lg">
           <Sidebar />
