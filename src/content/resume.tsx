@@ -29,7 +29,7 @@ export const experienceList = [
     title: "Walker Consultants",
     role: "Architectural Designer + Building Tech",
     location: "Boston, MA",
-    date: "Aug 2021 - Dec 2023",
+    date: "Aug 2021 - Present",
     description: [
       "Spearheded the adoption of machine learning techniques into the architectural design processes by sharing and educating the team on AI applications within the construction industry",
       "Developed and implemented company-wide architectural and Building Information Management (BIM) standards",
