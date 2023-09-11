@@ -3,7 +3,7 @@ category: "computer-vision"
 title: "StreetStudy"
 date: 2023
 thumbnail: "/assets/projects/demo.png"
-excerpt: "Using object detection and tracking, this app allows urban designers and planners to analyze outdoor pedestrian foot traffic patterns and behaviors in the hopes to optimize public spaces for pedestrian needs. This app aims to provide designers granular insights into creating more pedestrian-friednly, accessible, and sustainable urban areas."
+excerpt: "Using object detection and tracking, this webapp allows urban designers and planners to analyze outdoor pedestrian foot traffic patterns and behaviors in the hopes to optimize public spaces for pedestrian needs. This project aims to provide designers granular insights into creating more pedestrian-friednly, accessible, and sustainable urban areas."
 tags: 
     - "computer-vision"
     - "pytorch"

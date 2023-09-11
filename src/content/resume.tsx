@@ -190,7 +190,11 @@ export const affiliationsList = [
 export const skills = [
   {
     category: "arch",
-    title: "Revit-Dynamo"
+    title: "Revit"
+  },
+  {
+    category: "arch",
+    title: "Dynamo"
   },
   {
     category: "arch",

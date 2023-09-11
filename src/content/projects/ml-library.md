@@ -1,14 +1,12 @@
 ---
 category: "machine-learning"
-title: "Numpy-Only ML Algorithms"
+title: "Personal ML Library"
 date: 2023
 thumbnail: "/assets/projects/demo.png"
-excerpt: "Implementing machine learning algorithms from scratch using Numpy only."
+excerpt: "This project aims to build a comprehensive, begineer friendly guide to implementing popular machine learning algorithms from scratch. The project mostly served as a way to organize my own understanding of these algorithms, but can be used by others as an educational tool."
 tags: 
-    - "numpy"
-    - "ml"
-    - "educational"
+    - "algorithms"
+    - "machine-learning"
+    - "python"
 ---
 # Machine Learning Implementation
-[Source Code](https://github.com/sardarchitect/ucsd_capstone)
-![image](/assets/projects/streetstudy_1.png)
